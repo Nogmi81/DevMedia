@@ -1,4 +1,4 @@
-Esse projeto foi desenvolvido dentro da Formação Front-End da plataforma DevMEdia 
+Esse projeto foi desenvolvido dentro da Formação Front-End da plataforma DevMedia 
 https://www.devmedia.com.br/
 
 O foco desse projeto é o uso do desenvolvimento responsivo e formulário com acessibilidade
