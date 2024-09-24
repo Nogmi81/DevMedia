@@ -3,4 +3,5 @@ https://www.devmedia.com.br/
 
 Projetos:
 
-Agência de Viagens: https://dev-media-agencia-viagem.vercel.app/
+* Agência de Viagens: https://dev-media-agencia-viagem.vercel.app/
+* Cafeteria: https://dev-media-cafeteria.vercel.app/
