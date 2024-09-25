@@ -10,7 +10,7 @@ Link: https://dev-media-cafeteria.vercel.app/
 
 HTML Refatorado:
 
-
+``` html
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -175,9 +175,10 @@ HTML Refatorado:
       <p>Desenvolvido por <a href="https://www.linkedin.com/in/andretnmiranda/" target="_blank">André Tavares</a></p>
       <div class="link-seta-topo"><a href="#banner"></a></div>
     </div>
+
   </footer>
 </body>
 
 </html>
-
+```
 
