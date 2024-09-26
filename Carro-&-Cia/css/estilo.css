@@ -1,0 +1,158 @@
+/* inicio-reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+}
+
+/* fim-reset */
+
+.secao {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.secao iframe{
+    max-width: 60vw;
+    max-height: 40vh;
+}
+
+.paragrafo {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 28px;
+    margin: 10px auto;
+    padding: 15px;
+    max-width: 500px;
+}
+
+/* ===  1ª seção === */
+.topo {
+    width: 100%;
+    max-height: 150px;
+    background-color: #000;
+    border-bottom: 1px solid #d5960054;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: fixed;
+}
+
+.topo a{
+    text-decoration: none;
+}
+
+h1 {
+    color: #d59600;
+    margin-bottom: 5px;
+}
+
+.paragrafo-topo {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.link-topo{
+    color: #d59600;
+    font-size: 18px;
+    margin: 0 10px;
+    border-bottom: 3px groove #d59600;
+}
+
+.link-topo a{
+    text-decoration: none;
+}
+
+
+/* ===  2ª seção === */
+
+.banner {
+    padding-top: 0;
+}
+
+.banner-img {
+    width: 100%;
+}
+
+/* ===  estilos para destaques === */
+
+span {
+    font-weight: bold;
+}
+
+/* ===  3ª seção === */
+
+h2 {
+    font-weight: normal;
+    color: #000;
+    margin-top: 0;
+}
+
+.imagem {
+    width: 450px;
+    border: 1px groove #d59600;
+}
+
+.texto-amarelo {
+    color: #d59600;
+}
+
+/* ===  4ª seção === */
+
+h3 {
+    color: #000;
+    font-size: 28px;
+    line-height: 42px;
+    margin-bottom: 10px;
+}
+
+.paragrafo-servicos {
+    color: #ffffff;
+    line-height: 42px;
+    width: 700px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.texto-branco {
+    color: #ffffff;
+}
+
+.lista-servicos {
+    width: 135px;
+    margin: 40px auto 40px;
+}
+
+.item-lista-servicos {
+    font-size: 22px;
+    line-height: 42px;
+    text-align: left;
+    color: #fff;
+}
+
+/* ===  6ª seção === */
+
+.rodape {
+    text-align: center;
+    background-color: #000000;    
+}
+
+.paragrafo-contato {
+    text-align: center;
+    color: #fff;
+    padding: 15px;
+    margin-top: 30px;
+    /*margin-bottom: 30px;*/
+}
+
+.borda-iframe{
+    border: 1px solid #000;
+}
+
+.link {
+    text-decoration: none;
+    border-bottom: 2px solid #d59600;
+}
