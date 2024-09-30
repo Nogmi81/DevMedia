@@ -26,7 +26,6 @@
   flex-wrap: wrap;
   gap: 30px;
   padding: 20px;
-  color: #3d3d3d;
 }
 
 .container-link-logotipo {
@@ -35,6 +34,7 @@
 
 .container-link-logotipo a {
   font-size: 24px;
+  font-weight: 600;
   text-decoration: none;
   color: #3d3d3d;
 }
@@ -52,6 +52,7 @@
 .link-topo {
   text-decoration: none;
   color: #3d3d3d;
+  font-weight: 600;
 }
 
 
@@ -266,12 +267,24 @@
   }  
 }
 
-@media(max-width: 550px) {
+@media (min-width: 375px) and (max-width: 550px) {
 
   .container-links {
     display: flex;
     justify-content: space-evenly;
+    font-size: 18px;
   }
+
+  .container-topo {
+    padding-top: 5px;
+    justify-content: center;
+    gap: 25px;
+  }
+
+  .container-link-logotipo a {
+    font-size: 27px;
+    padding-left: 30%;
+  } 
 
   .banner {
     padding-top: 50px;
@@ -291,5 +304,12 @@
     text-align: center;
   }
 
+  .card-info-rodape a {
+    font-size: 20px;
+  }
+
+  .container-copright a {
+    font-size: 20px;
+  }
   
 }
