@@ -302,14 +302,20 @@
     text-align: center;
   }
 
-  @media (min-width: 992px) and (max-width: 1199px) {
+  .google-maps {
+    margin: 0 auto;
+    max-width: 90vw;
+    max-height: 70vh;
+  }
+} 
+
+@media (min-width: 992px) and (max-width: 1199px) {
     .google-maps {
       margin: 0 auto;
       max-width: 90vw;
       max-height: 70vh;
     }
-  }
-
+  
   .card-info-rodape a {
     display: flex;
     font-size: 20px;
