@@ -249,22 +249,20 @@
   text-decoration: underline;
 }
 
-@media (min-width: 480px) and (max-width: 991px)
-{
+@media (min-width: 480px) and (max-width: 991px) {
   .google-maps {
     margin: 0 auto;
     max-width: 90vw;
     max-height: 70vh;
-  }  
+  }
 }
 
-@media (min-width: 992px) and (max-width: 1199px)
-{
+@media (min-width: 992px) and (max-width: 1199px) {
   .google-maps {
     margin: 0 auto;
     max-width: 90vw;
     max-height: 70vh;
-  }  
+  }
 }
 
 @media (min-width: 200px) and (max-width: 550px) {
@@ -284,7 +282,7 @@
   .container-link-logotipo a {
     font-size: 27px;
     padding-left: 30%;
-  } 
+  }
 
   .banner {
     padding-top: 50px;
@@ -304,12 +302,21 @@
     text-align: center;
   }
 
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .google-maps {
+      margin: 0 auto;
+      max-width: 90vw;
+      max-height: 70vh;
+    }
+  }
+
   .card-info-rodape a {
+    display: flex;
     font-size: 20px;
   }
 
   .container-copright a {
     font-size: 20px;
   }
-  
+
 }
