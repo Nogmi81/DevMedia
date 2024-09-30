@@ -267,7 +267,7 @@
   }  
 }
 
-@media (min-width: 375px) and (max-width: 550px) {
+@media (min-width: 200px) and (max-width: 550px) {
 
   .container-links {
     display: flex;
