@@ -1,0 +1,31 @@
+.banner-quartos {
+  height: 50vh;
+}
+
+.container-quartos img {
+  width: 350px;
+  flex-grow: 1;
+}
+
+.container-informacoes {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;  
+}
+
+.lista-informacoes {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.lista-informacoes li {
+  width: 280px;
+  align-items: center;
+}
+
+
+
