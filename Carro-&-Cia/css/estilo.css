@@ -156,3 +156,32 @@ h3 {
     text-decoration: none;
     border-bottom: 2px solid #d59600;
 }
+
+/* media query */
+
+@media (min-width: 200px) and (max-width: 550px) {
+  
+    .imagem {
+        width: 80%;
+    }
+
+    /* .container-link-logotipo a {
+      font-size: 27px;
+      padding-left: 30%;
+      padding-left: calc((100% / 2) - 20%);
+    } */
+  
+    .banner {
+      padding-top: 50px;
+    }
+  
+    .secao {
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+    
+  } 
+  
+  
