@@ -1,0 +1,246 @@
+/* Início CSS Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.container {
+    padding: 120px 80px;
+}
+
+.destaque {
+    font-weight: 700;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px;
+}
+
+/* Fim CSS Global */
+
+/* topo */
+
+header {
+    background-color: #F6FBFE;
+    width: 100%;
+    height: 100px;
+    /* border-bottom: #3c184e; */
+}
+
+.container-nome-logo {
+    max-width: 300px;
+    color: #3c184e;
+    margin-left: 30px;
+    padding: 10px;
+    position: relative;
+}
+
+.container-nome-logo img {
+    width: 50px;
+    margin-right: 8px;
+}
+
+.nome-pet-shop {
+    font-size: 35px;
+    /* text-decoration: none; */
+    color: #3c184e;
+}
+
+.slogan-pet-shop {
+    font-size: 14px;
+    position: absolute;
+    left: 18px;
+}
+
+/* topo */
+
+/* Início CSS Banner */
+
+.banner-topo {
+    background-image: url("../img/banner-topo.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.container-titulo-topo {
+    max-width: 1024px;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 0 auto;
+    background: #ffffffc4;
+    box-shadow: 0 8px 32px #1f26875e;
+}
+
+.titulo-topo {
+    font-size: 60px;
+    color: #3c184e;
+    text-align: center;
+    font-weight: 800;
+    margin: 0 0 40px;
+}
+
+.link-fale-conosco {
+    text-align: center;
+    width: 200px;
+    padding: 10px 25px;
+    font-size: 20px;
+    background-color: #3c184e;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.link-fale-conosco a {
+    color: #ffff;
+}
+
+.container-titulo-topo img {
+    width: 20px;
+}
+
+/* Fim CSS Banner */
+
+/* Início CSS Nossos Serviços */
+.box-servicos {
+    max-width: 800px;
+    color: #3c184e;
+    margin: 0 auto 50px;
+    text-align: justify;
+}
+
+.box-servicos li {
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+
+.box-servicos-img {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box-servicos-img img {
+    box-shadow: 3px 3px 10px 3px #0000005c;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+/* Fim CSS Nossos Serviços */
+
+/* Início CSS Faixa */
+.faixa {
+    background-color: #3c184e;
+    text-align: center;
+}
+
+.text-faixa {
+    max-width: 800px;
+    margin: 0 auto 50px;
+    color: #fff;
+    font-size: 40px;
+}
+
+.redes-sociais a {
+    margin: 0 20px;
+}
+
+.redes-sociais img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Fim CSS Faixa */
+
+/* Início CSS Marcas */
+.container-marcas {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo-marca {
+    width: 148px;
+    height: 148px;
+    margin: 0 15px;
+}
+
+/* Fim CSS Marcas */
+
+/* Início CSS Onde estamos */
+
+.onde-estamos {
+    text-align: center;
+}
+
+.onde-estamos p {
+    color: #3c184e;
+    font-size: 20px;
+    margin: 0 0 45px;
+}
+
+.onde-estamos iframe {
+    max-width: 80%;
+    max-height: 70vh;
+    margin: 0 auto;
+}
+
+/* Fim CSS Onde estamos */
+
+/* Início CSS Rodapé */
+
+.rodape {
+    width: 100%;
+    height: 80px;
+    background-color: #3c184e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 0;
+    color: #ccc;
+    font-size: 18px;
+}
+
+.link-rodape a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.link-rodape a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Fim CSS Rodapé */
+
+@media (min-width: 200px) and (max-width: 550px) {
+
+    .container {
+        padding: 40px 40px;
+    }
+
+    .titulo-topo {
+        font-size: 20px;
+        height: 80%;
+    }
+
+    .container-titulo-topo {
+        padding: 25px;
+    }
+
+    .banner-topo {
+        height: 80vh;
+    }
+
+    .box-servicos-img {
+        /* width: calc(100% / 4 - 9px); */
+    }
+}
