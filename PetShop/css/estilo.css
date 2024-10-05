@@ -239,8 +239,65 @@ header {
     .banner-topo {
         height: 80vh;
     }
+    
+}
 
-    .box-servicos-img {
-        /* width: calc(100% / 4 - 9px); */
+@media (min-width: 551px) and (max-width: 991px) {
+
+    .container {
+        padding: 40px 40px;
+    }
+
+    .titulo-topo {
+        font-size: 25px;
+        height: 90%;
+    }
+
+    .container-titulo-topo {
+        padding: 25px;
+    }
+
+    .banner-topo {
+        height: 90vh;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .container {
+        padding: 40px 40px;
+    }
+
+    .titulo-topo {
+        font-size: 25px;
+        height: 90%;
+    }
+
+    .container-titulo-topo {
+        padding: 25px;
+    }
+
+    .banner-topo {
+        height: 80vh;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+
+    .container {
+        padding: 40px 40px;
+    }
+
+    .titulo-topo {
+        font-size: 32px;
+        height: 95%;
+    }
+
+    .container-titulo-topo {
+        padding: 25px;
+    }
+
+    .banner-topo {
+        height: 80vh;
     }
 }
