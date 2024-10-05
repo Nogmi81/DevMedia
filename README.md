@@ -8,3 +8,5 @@ Projetos:
 * Carros&Cia: https://dev-media-carro-e-cia.vercel.app/
 * Pousada Secreta: https://dev-media-pousada-secreta.vercel.app/
 * Clinica Medica: https://dev-media-clinica-medica.vercel.app/
+* PetShop: https://dev-media-pet-shop.vercel.app/
+
