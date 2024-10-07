@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: 'Fredoka', sans-serif;
+}
+
+/* Topo */
+.secao-topo {
+  box-sizing: border-box;
+  width: 100%;
+  height: 80px;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  font-weight: bold;
+  /* background-color: black;
+  color: #fff; */
+}
+
+.limita-largura {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+/* Seção inicial com imagem de fundo */
+.secao-background-capa {
+  /* min-height: 500px; */
+  height: 90vh;
+  background-image: url('img/capa.jpg');
+  background-size: cover;
+}
+
+.secao-background-conteudo {
+  text-align: right;
+  padding: 50px 20px;
+  /* background-color: black; */
+}
+
+/* Seção conteúdo */
+.secao-conteudo {
+  padding: 50px 20px;
+}
+
+.galeria{
+  max-width: 800px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 30px auto;
+}
+
+.img-conteudo {
+  width: 250px;
+  height: 180px;
+  /* width: calc((100% / 3) - 9px); */
+}
+
+.secao-conteudo span {
+  border-left: 1px solid;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+/* Seção com imagem de fundo e texto */
+.secao-background-divisao {
+  padding: 50px 0;
+  text-align: center;
+  background-image: url('img/fundo.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.secao-background-divisao h3{
+  font-size: 36px;
+  background-color: #fff;
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
