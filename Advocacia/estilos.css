@@ -95,7 +95,11 @@ h1, h2, h3 {
   .secao-background-conteudo {
     color: #fff;
     position: absolute;
-    left: 30px;
-    bottom: 30px;   
+    left: 20px;
+    bottom: 40px;   
   }  
+
+  .secao-topo{
+    text-align: center;
+  }
 }
