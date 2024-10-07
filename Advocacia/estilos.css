@@ -39,6 +39,7 @@ h1, h2, h3 {
   text-align: right;
   padding: 50px 20px;
   /* background-color: black; */
+  position: relative;
 }
 
 /* Seção conteúdo */
@@ -93,7 +94,8 @@ h1, h2, h3 {
 
   .secao-background-conteudo {
     color: #fff;
-    text-align: bottom;
-    
+    position: absolute;
+    left: 30px;
+    bottom: 30px;   
   }  
 }
