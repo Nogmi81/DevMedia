@@ -86,7 +86,7 @@ h1, h2, h3 {
 }
 
 @media (max-width: 425px) {
-  secao-background-capa{
+  .secao-background-capa{
     width: 80%;
     height: 70vh;
   }  
