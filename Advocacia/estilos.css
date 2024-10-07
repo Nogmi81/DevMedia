@@ -100,7 +100,6 @@ h1, h2, h3 {
   }  
 
   .secao-topo{
-    text-align: center;
-    background-color: black;
+    justify-content: center;
   }
 }
