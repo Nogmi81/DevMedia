@@ -28,6 +28,7 @@ h1, h2, h3 {
 
 /* Seção inicial com imagem de fundo */
 .secao-background-capa {
+  width: 100%;
   /* min-height: 500px; */
   height: 90vh;
   background-image: url('img/capa.jpg');
@@ -82,4 +83,10 @@ h1, h2, h3 {
   width: 200px;
   margin: 0 auto;
   border-radius: 20px;
+}
+
+@media (max-width: 425px) {
+  secao-background-capa{
+    width: 80%;
+  }  
 }
