@@ -10,4 +10,5 @@ Projetos:
 * Clinica Medica: https://dev-media-clinica-medica.vercel.app/
 * PetShop: https://dev-media-pet-shop.vercel.app/
 * Advocacia: https://dev-media-advocacia.vercel.app/
+* Apresentação de um Cardápio: https://dev-media-cardapio.vercel.app/
 
