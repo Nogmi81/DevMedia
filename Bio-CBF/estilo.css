@@ -1,0 +1,308 @@
+/* Estilo Global*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ysabeau Infant', sans-serif;
+}
+
+body{
+  background-color: #ffdf00;
+}
+
+.secao-banner {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.secao-banner video {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container-info {
+  width: 768px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+
+/* Estilo da imagem de perfil e do titulo */
+.imgPerfil-titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.imgPerfil {
+  width: 205px;
+  height: 205px;
+  border-radius: 100%;
+
+  background-image: url('./assets/CBF.jpg');
+  background-position: center;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgPerfil::before {
+  content: "";
+  position: absolute;
+  width: 225px;
+  height: 225px;
+  background: linear-gradient(90deg, #ffdf00, #009c3b);
+  z-index: -1;
+  border-radius: 100%;
+}
+
+.imgPerfil-titulo h1 {
+  position: relative;
+  font-size: 60px;
+  color: #fff;
+  text-shadow: 2px 6px 3px #000000;
+}
+
+h1::before {
+  content: "";
+  position: absolute;
+  width: 90px;
+  height: 5px;
+  background: linear-gradient(90deg, #ffdf00, #009c3b);
+  bottom: 2px;
+  left: 5px;
+  border-radius: 4px;
+}
+
+/* Estilo dos links */
+.arvore-links {
+  max-width: 768px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.arvore-links a {
+  width: 100%;
+  padding: 10px;
+
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+
+  border-radius: 20px;
+  background-color: #3F48CC6e;
+  color: #fff;
+}
+
+.arvore-links a:hover {
+  background-color: #FFF200;
+  color: #000;
+}
+
+.arvore-links a p {
+  width: 90%;
+}
+
+.arvore-links a img {
+  width: 30px;
+}
+
+/* Estilo da tabela */
+.secao-tabela {
+  position: relative;
+  width: 100%;
+  /* height: 100vh; */
+  padding: 35px 15px;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  font-family: 'Monstserrat', sans-serif;
+
+  background-image: url(./assets/fundo-cbf.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  margin-top: 1.5px;
+}
+
+.secao-tabela h2 {
+  font-size: 74px;
+  color: #fff;
+  text-shadow: 3px 6px 1px #000000;
+}
+
+.tabela{
+  max-width: 800px;
+  width: 100%;
+}
+
+.tab-ano{
+  text-align: center;
+}
+
+.tabela th {
+  font-size: 26px;
+  background-color: #000000cc;
+  color: #ffff;
+  text-shadow: 2px 2px 1px #000000;
+}
+
+.tabela th, tr, td {
+  padding: 20px;
+  /* text-align: center; */
+}
+
+/* 
+
+faz a coluna Ano ficar alinhada a esquerda 
+sem as imagens da página original! 
+
+.tabela tbody td:nth-child(1) {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+} */
+
+.tabela tbody tr:nth-of-type(odd) {
+  background-color: #ffffffcc;
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
+}
+
+.tabela tbody tr:nth-of-type(even) {
+  background-color: #000000cc;
+  /* font-weight: 700; */
+  font-size: 18px;
+  color: #fff;
+}
+
+/* footer{
+  height: 80px;
+  margin-top: 1px;
+  background-color: #009c3b;
+  text-align: center;
+} */
+
+/* Início CSS Rodapé */
+
+.rodape {
+  width: 100%;
+  height: 80px;
+  background-color: #009c3b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 0;
+  margin-top: 1.5px;
+  color: #ccc;
+  font-size: 18px;
+}
+
+.link-rodape a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link-rodape a:hover {
+  color: #ffdf00;
+  font-weight: 600;
+  /* text-decoration: underline; */
+}
+
+/* Fim CSS Rodapé */
+
+@media (min-width: 200px) and (max-width: 550px) {
+
+  .imgPerfil {
+    width: 115px;
+    height: 115px;    
+    background-size: 115px 115px;
+  }
+
+  .imgPerfil::before {
+    width: 125px;
+    height: 125px;
+  }
+  
+  .secao-tabela h2 {
+    font-size: 36px;
+    color: #fff;
+    text-shadow: 3px 3px 1px #000000;
+   }
+
+}
+
+@media (min-width: 551px) and (max-width: 991px) {
+
+  .imgPerfil {
+    width: 115px;
+    height: 115px;    
+    background-size: 100%;
+  }
+
+  .imgPerfil::before {
+    width: 125px;
+    height: 125px;
+  }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .imgPerfil {
+    width: 135px;
+    height: 135px;    
+    background-size: 100%;
+  }
+
+  .imgPerfil::before {
+    width: 145px;
+    height: 145px;
+  }
+  
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+
+  .imgPerfil {
+    width: 135px;
+    height: 135px;    
+    background-size: 100%;
+    padding: 50px;
+  }
+
+  .imgPerfil::before {
+    width: 145px;
+    height: 145px;
+  }
+
+}
