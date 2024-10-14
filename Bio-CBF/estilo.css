@@ -244,8 +244,7 @@ sem as imagens da página original!
 
   .secao-banner video {
     width: 100vw;
-    height: 100vh;
-    object-fit: cover;
+    height: 95vh;
   }
 
   .imgPerfil {
