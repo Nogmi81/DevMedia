@@ -13,6 +13,7 @@ body{
 .video{
   width: 100%;
 }
+
 .secao-banner {
   width: 100%;
   height: 100vh;
@@ -245,6 +246,11 @@ sem as imagens da página original!
 
 @media (min-width: 200px) and (max-width: 550px) {
 
+  .video{
+    width: 100vw;
+    height: 100vh;
+  }
+
   .imgPerfil {
     width: 115px;
     height: 115px;    
@@ -255,9 +261,16 @@ sem as imagens da página original!
     width: 125px;
     height: 125px;
   }
+
+  .secao-tabela {
+    position: relative;
+    width: 100%;
+    /* height: 100vh; */
+    padding: 5px;
+  }
   
   .secao-tabela h2 {
-    font-size: 20px;
+    font-size: 25px;
     color: #fff;
     text-shadow: 3px 3px 1px #000000;
    }
