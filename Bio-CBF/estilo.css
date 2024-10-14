@@ -10,10 +10,6 @@ body{
   background-color: #ffdf00;
 }
 
-.video{
-  width: 100%;
-}
-
 .secao-banner {
   width: 100%;
   height: 100vh;
@@ -246,9 +242,10 @@ sem as imagens da página original!
 
 @media (min-width: 200px) and (max-width: 550px) {
 
-  .video{
+  .secao-banner video {
     width: 100vw;
     height: 100vh;
+    object-fit: cover;
   }
 
   .imgPerfil {
