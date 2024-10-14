@@ -254,10 +254,15 @@ sem as imagens da página original!
   }
   
   .secao-tabela h2 {
-    font-size: 36px;
+    font-size: 20px;
     color: #fff;
     text-shadow: 3px 3px 1px #000000;
    }
+
+   .tabela th, tr, td {
+    padding: 10px;
+    /* text-align: center; */
+  }
 
 }
 
