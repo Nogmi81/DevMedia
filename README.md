@@ -12,6 +12,8 @@ Projetos:
 * Advocacia: https://dev-media-advocacia.vercel.app/
 * Apresentação de um Cardápio: https://dev-media-cardapio.vercel.app/
 * Bio CBF: https://dev-media-bio-cbf.vercel.app/
-** Com React: **
+  
+**Com React:**
+  
 * https://otica-vida-react.vercel.app/
 
