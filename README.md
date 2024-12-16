@@ -13,7 +13,7 @@ Projetos:
 * Apresentação de um Cardápio: https://dev-media-cardapio.vercel.app/
 * Bio CBF: https://dev-media-bio-cbf.vercel.app/
   
-**Com React:**
+**Acesse o Portfólio completo:**
   
-* https://otica-vida-react.vercel.app/
+* https://nogmi81.github.io/Nogmi81/portfolio.html
 
